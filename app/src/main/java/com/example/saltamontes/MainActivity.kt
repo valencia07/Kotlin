@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         btnEstadisticas.setOnClickListener{onClick(2)}
         btnAyuda.setOnClickListener{onClick(3)}
     }
-
     private fun onClick(botones : Int){
         when(botones){
             1 ->{
